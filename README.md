@@ -13,16 +13,16 @@ The goal of this lab is to:
 
 ## 🗂️ Provided
 
-- A `docker` file to set up the dev environment.
+- A `container` file to set up the dev environment.
 - Bioinformatics module in `pdb_tools/` and associated tests `pdb_tools/test/`.
 
 ---
 
 ## 💻 Setup
 ```bash
-./docker_build.sh # You may need to chmod +x
+./build.sh # You may need to chmod +x
 
-./docker_run.sh # You may need to chmod +x
+./run.sh # You may need to chmod +x
 
 cd pdb_tools
 
