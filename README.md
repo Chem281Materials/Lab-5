@@ -28,7 +28,8 @@ cd pdb_tools
 
 pip install -e . # -e means editable, so we don't need to keep installing while editing
 
-pytest test/interaction_extractor_test.py
+cd test
+pytest interaction_extractor_test.py
 # Both tests should fail!
 
 python3 runner.py
